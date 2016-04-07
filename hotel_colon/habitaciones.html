@@ -18,6 +18,21 @@
 
 </head>
 <body>
+    
+<script type="text/javascript">
+  function desplegar()
+  {
+    console.log("desplegar");
+  document.getElementById("submenu-habitaciones").style.display = "block"; 
+  }
+
+  function ocultar()
+  {
+    console.log("ocultar");
+    document.getElementById("submenu-habitaciones").style.display = "none";
+  }
+</script>    
+    
   <div class="redes">
           <div class="row">
                      <div class="lang"></div>
@@ -44,7 +59,9 @@
         <ul>
             <li><a href="index.html">EL HOTEL</a></li>
             <li>
-                <a href="catalogo.html" class="habitaciones">LAS HABITACIONES</a>
+                <div onMouseOver="desplegar()" onMouseOut="ocultar()">
+                    <a href="habitaciones.html" class="habitaciones">LAS HABITACIONES</a>
+                </div> 
                 <div class="submenu-habitaciones">
                     <ul class="submenu-lista">
                         <li><h3>CLÁSICAS</h3></li>
@@ -106,7 +123,8 @@
 		            					<li><p><img src="image/ok.png">Frigobar</p></li>
 		            					<li><p><img src="image/ok.png">Caja de seguridad con capacidad para una laptop</p></li>
 		            					<li><p><img src="image/ok.png">Televisor LCD 32" con cable</p></li>
-		            					<li><p><img src="image/ok.png">Baño con bañera hidromasaje, espejo de aumento, teléfono, secador de pelo</p></li>
+		            					<li><p><img src="image/ok.png">Baño con bañera hidromasaje, espejo de aumento,</p></li>
+                                        <li><p><img src="image/ok_vacio.png">teléfono, secador de pelo</p></li>
 		            					<li><p><img src="image/ok.png">Ventanales con aislamiento acústico</p></li>
 		            					<li><p><img src="image/ok.png">Sistema de detección de incendio</p></li>
 		            					<li><p><img src="image/ok.png">Escritorio</p></li>

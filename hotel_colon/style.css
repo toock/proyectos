@@ -69,7 +69,7 @@ header{
 
     
     #nav-mobile{
-        display: block;
+        display: none;
         background: url(nav.png) no-repeat center center;
         float: right;
         width: 60px;
@@ -621,7 +621,8 @@ header{
   width: 100%;
 }
 .dionisio {
-    width: 60%;
+    width: 20%;
+    height: 230px;
     position: absolute;
     top: 9%;
     right: 9%;
@@ -792,7 +793,10 @@ header{
 .novena-seccion{
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background: url(./image/img_dorada_abajo_fondo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 
   display: flex;
 }
@@ -815,11 +819,11 @@ header{
     z-index: 99999;
 }
 .numero-uno {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 100;
-  font-size: 5em;
-  margin: 0;
-  padding-top: 80px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+    margin: 0;
+    padding-top: 50%;
 }
 .numeros {
   font-family: 'Alegreya Sans', sans-serif;
@@ -969,7 +973,7 @@ form span {
     #menu{
         width: 100%;
         float: none;
-        padding-top: 136px;
+        padding-top: 135px;
     }
         /* Convertimos nuestra lista de enlaces en un menú horizontal */
         #menu ul{
@@ -1129,6 +1133,14 @@ form span {
 }
     
 /*---------------------------------------------------------*/    
+.dionisio {
+    width: 30%;
+    height: 230px;
+    position: absolute;
+    top: 9%;
+    right: 9%;
+    text-align: center;
+}
     
 .formulario {
     width: 55%;    
@@ -1285,6 +1297,7 @@ form span {
 }
     
 /*---------------------------------------------------------*/
+    
 /*---------------------seccion novedades-------------------*/
 .variedades ul li {
     width: 100%;
@@ -1310,9 +1323,22 @@ form span {
 
     
 /*---------------------------------------------------------*/
-
+.dionisio {
+    width: 40%;
+    height: 230px;
+    position: absolute;
+    top: 9%;
+    right: 9%;
+    text-align: center;
+}
+.columna {
+    width: 35%;
+}
+    
 .numero-uno {  
-  font-size: 3em;  
+  font-size: 3em;
+  padding-top: 75%;
+}
 }
 .numeros {  
   font-size: 3em;  
@@ -1433,7 +1459,7 @@ form span {
     top: 20%;    
 }
 .columna {    
-    width: 35%;    
+    width: 45%;    
 }
 }
 @media only screen and (max-width: 430px){
@@ -1493,21 +1519,48 @@ form span {
     float: none;
 }
 .dionisio {
-    width: 100%;
+    width: 75%;
     position: absolute;
     top: 9%;
     right: 0%;
     text-align: center;
 }
-    .numero-uno {  
-        font-size: 2em;
-        padding-top: 30px;
+.numero-uno {
+    font-size: 8em;
+    padding-top: 45%;
 }
 .numeros {  
-    font-size: 2em; 
+    font-size: 8em; 
     padding-top: 18px;
 }
 .letras {  
-  font-size: 1em;  
+  font-size: 2em;  
+}
+}
+@media only screen and (max-width: 320px) {
+    .dionisio {
+    width: 90%;
+    position: absolute;
+    top: 9%;
+    right: 0%;
+    text-align: center;
+}
+.im-habitacion {
+    background: url(./image/habitacion.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 76%;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+}
+.variedades {
+    width: 81%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 26px;
+}
+.columna {
+    width: 75%;
 }
 }

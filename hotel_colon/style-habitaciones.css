@@ -68,7 +68,7 @@ header{
 
     
     #nav-mobile{
-        display: block;
+        display: none;
         background: url(nav.png) no-repeat center center;
         float: right;
         width: 60px;
@@ -212,11 +212,12 @@ header nav .habitaciones:hover > ul.submenu-habitaciones {
     padding: 5px 9px;
 }
 .cuadruple {
-	font-size: 3em;
+    font-size: 4em;
     margin: 0;
     background: #000;
-    padding: 5px 9px;
+    padding: 11px 0px;
     width: 235px;
+    box-sizing: border-box;
 }
 .design {
 	font-size: 5em;
@@ -238,11 +239,9 @@ header nav .habitaciones:hover > ul.submenu-habitaciones {
 }
 
 .wrapper-sdos {
-	width: 1000px;
+    width: 90%;
     height: 1050px;
     margin: 0 auto;
-    #background: #545454;
-    text-align: center;
 }
 .columna-izquierda {
 	width: 60%;
@@ -276,6 +275,7 @@ header nav .habitaciones:hover > ul.submenu-habitaciones {
 }
 .lista img {
 	padding-right: 10px;
+    width: 4%;
 }
 .plano {
 	margin-top: 65px;
@@ -381,7 +381,7 @@ header nav .habitaciones:hover > ul.submenu-habitaciones {
     #menu{
         width: 100%;
         float: none;
-        padding-top: 136px;
+        padding-top: 135px;
     }
         /* Convertimos nuestra lista de enlaces en un menú horizontal */
         #menu ul{
@@ -418,13 +418,103 @@ header nav .habitaciones:hover > ul.submenu-habitaciones {
         }
 }
 
-@media only screen and (max-width: 1200px){
-    
-    
+@media only screen and (max-width: 1280px){
+/*---------------------respnsive habitaciones------------------------------*/
+.wrapper-sdos {
+    width: 90%;
+    height: 1800px;
+    margin: 0 auto;
+}
+.columna-izquierda {
+    width: 90%;
+    height: 1000px;
+    float: none;
+    margin: 0 auto;
+}
+    .columna-derecha {
+    width: 38%;
+    height: 1000px;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+}
+/*-------------------------------------------------------------------------*/    
 }
     
 @media only screen and (max-width: 768px) {
     .redes {
         display: none;
     }
-}    
+/*---------------------respnsive habitaciones------------------------------*/
+.columna-izquierda {    
+    height: 800px;    
+}
+
+.columna-derecha {
+    width: 60%;
+    height: 1000px;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+}
+    .camarita {
+    position: absolute;
+    top: 18%;
+    right: 9%;
+}
+    
+/*-------------------------------------------------------------------------*/
+}
+
+@media only screen and (max-width: 600px){
+.segunda-seccion {
+    position: relative;
+    top: -3px;
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+.wrapper-sdos {
+    width: 90%;
+    height: 1400px;
+    margin: 0 auto;
+}
+.lista {
+    text-align: left;
+    margin-top: 50px;
+    padding-left: 0px;
+    font-weight: 300;
+    font-size: 83%;
+    line-height: 2em;
+    width: 100%;
+}
+.plano {
+    margin-top: 65px;
+    background: url(./image/habitaciones_plano.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 95%;
+    height: 250px;
+}
+.columna-derecha {
+    width: 100%;   
+}
+.camarita {
+    position: absolute;
+    top: 16%;
+    right: 9%;
+}
+}
+@media only screen and (max-width: 320px){
+.botones {
+    width: 260px;
+    height: 500px;
+    margin: 0 auto;
+}
+ .camarita {    
+    top: 11%;    
+}   
+    
+}
