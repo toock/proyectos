@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4efe5;
+    font: bold 14px 'Open Sans', sans-serif;
+    background: #000;
+}
+header, nav{
+    display: block;
+}
+
+
+header{
+  background: #000;
+  height: 135px;
+  position: relative;
+  width: 90%;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+
+#logo{
+  background: url(logo.png) no-repeat 0 0;
+  display: block;
+  float: left;
+  margin: 0 3% 0;
+  width: 220px;
+  height: 120px;
+  text-indent: -9999px;
+}
+
+
+#menu{
+  float: right;
+  padding-top: 70px;
+}
+
+    
+    #menu ul{
+        list-style: none;
+        font-size: 14px;
+    }
+
+     
+        #menu li{
+           display: block;        
+           float: left;
+           text-transform: uppercase;
+           text-align: center;
+        }
+
+            
+            #menu li a{
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 10px;
+            }
+            #menu li a:hover {
+                background: #151a1e;            
+                color: #ffc700;
+            }
+
+    
+    #nav-mobile{
+        display: block;
+        background: url(nav.png) no-repeat center center;
+        float: right;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top:0;
+        opacity: .6;
+
+    }
+      
+        #nav-mobile.nav-active{
+            opacity: 1;
+        }
+
+/*----------------submenu----------------------------*/
+
+.habitaciones {
+    position: relative !important;
+    
+}
+
+.submenu-habitaciones {
+    display: none;
+    width: 100%;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.82);
+    position: absolute;
+    left: 0%;
+    overflow: visible;
+}
+header nav .habitaciones:hover > ul.submenu-habitaciones {
+    display: block;
+}
+.submenu-lista {
+    width: 23%;
+    height: 200px;
+    #background: #545454;
+    float: left;
+    margin: 20px 5% 20px;
+}
+.submenu-lista li h3 {
+    display: block;
+    font-size: 1.35em;
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+.submenu-lista li > a {
+    font-family: 'Alegreya Sans',sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0px 10px!important;
+    height: 33px !important;
+    color: #000 !important;
+}
+.submenu-lista li > a:hover {
+    background: none !important;
+}
+.submenu-lista li em {
+    background: #000;
+    font-weight: bold;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    color: #fff;
+}
+
+
+/*---------------------------------------------------*/
+#content{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    #overflow: hidden;
+}
+    h2{
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #624c3f;
+    }
+.redes .row {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    background: #000;
+  }
+.redes .row div {
+    float: right;
+    color: #9CC;
+    line-height: 50px;
+  }
+.redes .fecha {width:100px;  font-size: 1.2em; font-weight: 300;}
+.redes .weather {width:100px; font-size: 1.2em; font-weight: 300;}
+.redes .social {width:250px}
+.redes .tel,
+.redes .map,
+.redes .lang {background:url(./image/social.png); height:40px; width:28px;}
+.redes .tel {background-position: -226px 0; width:160px;}
+.redes .map {background-position: -406px 0;}
+.redes .lang {background-position: -448px 0;}
+.social ul {margin:0; padding:0;}
+.social ul li { display:inline-block; background:url(./image/social.png); width:28px; height:38px}
+.social ul li a {text-indent:-9999px; display:block}
+.social li.tw {background-position: -30px 0;}
+.social li.yt {background-position: -60px 0;}
+.social li.in {background-position: -96px 0;}
+.social li.pi {background-position: -132px 0;}
+.social li.gp {background-position: -170px 0;}
+
+/*----------------------------------------------- seccion primera home ----------------------------------------------------------------*/
+
+.home {
+    width: 100%;
+    height: 100vh;  
+    position: relative;
+    background: url(./image/hotelplaza-habitacion.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;  
+}
+ .home img {
+  width: 100%;
+  height: 100%;
+ }
+.pie-home {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    bottom: 6%;
+    color: #fff;
+    left: 12%;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+}
+.habita {
+	font-size: 2em;
+    margin: 0;
+    padding: 5px 9px;
+}
+.cuadruple {
+	font-size: 3em;
+    margin: 0;
+    background: #000;
+    padding: 5px 9px;
+    width: 235px;
+}
+.design {
+	font-size: 5em;
+    margin: 0;
+    padding: 5px 6px;
+}
+
+/*----------------------------------------------- seccion segunda habitaciones ----------------------------------------------------------------*/
+
+.segunda-seccion {
+	position: relative;
+    top: -3px;    
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    text-align: center; 
+    background: #fff;
+    
+}
+
+.wrapper-sdos {
+	width: 1000px;
+    height: 1050px;
+    margin: 0 auto;
+    #background: #545454;
+    text-align: center;
+}
+.columna-izquierda {
+	width: 60%;
+    height: 1000px;
+    float: left;
+    #background: #767676;
+}
+.descripcion {
+	text-align: left;
+	font-weight: 300;
+}
+.descripcion p {
+    font-size: 1.25em;
+    font-family: 'Alegreya Sans',sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+}
+.descripcion span {
+    font-family: 'Alegreya Sans',sans-serif;
+	font-weight: 700;
+}
+.lista {
+	text-align: left;
+    margin-top: 50px;
+    padding-left: 70px;
+    font-weight: 300;
+    font-size: 1.05em;;
+}
+.lista ul li {
+	list-style: none;
+}
+.lista img {
+	padding-right: 10px;
+}
+.plano {
+	margin-top: 65px;
+    background: url(./image/habitaciones_plano.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+
+}
+.galeria img {
+    width: 100%;
+    margin: 0 auto;
+}
+.columna-derecha {
+	width: 38%;
+    height: 1000px;
+    float: right;
+    position: relative;
+}
+.camarita {
+	position: absolute;
+	top: 15%;
+	right: 15%;
+
+}
+.botones {
+    width: 330px;
+    height: 500px;
+    margin: 0 auto;
+}
+.botones ul li {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	text-align: center;
+}
+.tarifa {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #999;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #000;
+    margin: 10px auto 0px;
+    line-height: 3.5;
+}
+.promociones {
+    width: 300px;
+    height: 50px;
+    background: #336667;
+    margin-bottom: 15px;
+    color: #fff;
+    line-height: 3.5;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.compartir {
+    width: 300px;
+    height: 50px;
+    background: #000;
+    margin-bottom: 15px;
+    color: #fff;
+    line-height: 3.5;
+    text-decoration: none;
+    margin: 0px auto 10px;
+}
+.servicios {
+    width: 300px;
+    height: 50px;
+    background: #999;
+    margin-bottom: 15px;
+    color: #fff;
+    line-height: 3.5;
+    text-decoration: none;
+    margin: 0px auto 10px;
+}
+/*---------------------------------------------------------------------------------*/
+
+/*-----------------------------------media query-----------------------------------*/
+
+@media only screen and (max-width: 1400px) {
+   #logo{
+    background-size: 70%;
+  }
+}
+
+
+@media only screen and (max-width: 1345px) {
+    #logo{
+    background-size: 75%;
+  }
+
+    h2{font-size: 40px;}
+
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 136px;
+    }
+        /* Convertimos nuestra lista de enlaces en un menú horizontal */
+        #menu ul{
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+        }
+            /* estilos para los LI del menu */
+            #menu li{
+                background: #33363b;
+                border-bottom: 1px solid #282b30;
+                float: none;
+            }
+
+            /* Quitamos el borde del ultimo item del menú */
+            #menu li:last-child{ border-bottom: 0;}
+                #menu li a{
+                    padding: 15px 0;
+                    height: auto;
+                    line-height: 1;
+                }
+                #menu li a:hover{background:#2a2d33}
+
+        /* Agregamos una animación al despligue del menú */
+        #menu ul.open-menu{
+            max-height: 400px;
+            -webkit-transition: max-height .4s;
+            -moz-transition: max-height .4s;
+            -ms-transition: max-height .4s;
+            -o-transition: max-height .4s;
+            transition: max-height .4s;
+        }
+}
+
+@media only screen and (max-width: 1200px){
+    
+    
+}
+    
+@media only screen and (max-width: 768px) {
+    .redes {
+        display: none;
+    }
+}    

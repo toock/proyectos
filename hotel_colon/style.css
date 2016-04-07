@@ -1,0 +1,1513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4efe5;
+    font: bold 14px 'Open Sans', sans-serif;
+    background: #000;
+}
+header, nav{
+    display: block;
+}
+
+
+header{
+  background: #000;
+  height: 135px;
+  position: relative;
+  width: 90%;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+
+#logo{
+  background: url(logo.png) no-repeat 0 0;
+  display: block;
+  float: left;
+  margin: 0 3% 0;
+  width: 220px;
+  height: 120px;
+  text-indent: -9999px;
+}
+
+
+#menu{
+  float: right;
+  padding-top: 70px;
+}
+
+    
+    #menu ul{
+        list-style: none;
+        font-size: 14px;
+    }
+
+     
+        #menu li{
+           display: block;        
+           float: left;
+           text-transform: uppercase;
+           text-align: center;
+        }
+
+            
+            #menu li a{
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 10px;
+            }
+            #menu li a:hover {
+                background: #151a1e;            
+                color: #ffc700;
+                display: block;
+            }
+
+    
+    #nav-mobile{
+        display: block;
+        background: url(nav.png) no-repeat center center;
+        float: right;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top:0;
+        opacity: .6;
+
+    }
+      
+        #nav-mobile.nav-active{
+            opacity: 1;
+        }
+
+/*----------------submenu----------------------------*/
+
+.habitaciones {
+    position: relative !important;
+    
+}
+
+.submenu-habitaciones {
+    display: none;
+    width: 100%;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.82);
+    position: absolute;
+    left: 0%;
+    overflow: visible;
+}
+.submenu-lista {
+    width: 23%;
+    height: 200px;
+    #background: #545454;
+    float: left;
+    margin: 20px 5% 20px;
+}
+.submenu-lista li h3 {
+    display: block;
+    font-size: 1.35em;
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+.submenu-lista li > a {
+    font-family: 'Alegreya Sans',sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0px 10px!important;
+    height: 33px !important;
+    color: #000 !important;
+}
+.submenu-lista li > a:hover {
+    background: none !important;
+}
+.submenu-lista li em {
+    background: #000;
+    font-weight: bold;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    color: #fff;
+}
+
+
+/*---------------------------------------------------*/
+#content{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    #overflow: hidden;
+}
+    h2{
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #624c3f;
+    }
+.redes .row {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    background: #000;
+  }
+.redes .row div {
+    float: right;
+    color: #9CC;
+    line-height: 50px;
+  }
+.redes .fecha {width:100px;  font-size: 1.2em; font-weight: 300;}
+.redes .weather {width:100px; font-size: 1.2em; font-weight: 300;}
+.redes .social {width:250px}
+.redes .tel,
+.redes .map,
+.redes .lang {background:url(./image/social.png); height:40px; width:28px;}
+.redes .tel {background-position: -226px 0; width:160px;}
+.redes .map {background-position: -406px 0;}
+.redes .lang {background-position: -448px 0;}
+.social ul {margin:0; padding:0;}
+.social ul li { display:inline-block; background:url(./image/social.png); width:28px; height:38px}
+.social ul li a {text-indent:-9999px; display:block}
+.social li.tw {background-position: -30px 0;}
+.social li.yt {background-position: -60px 0;}
+.social li.in {background-position: -96px 0;}
+.social li.pi {background-position: -132px 0;}
+.social li.gp {background-position: -170px 0;}
+
+/*----------------------------------------------- seccion primera home ----------------------------------------------------------------*/
+
+.home {
+    width: 100%;
+    min-height: 100%;  
+    position: relative;
+
+    #display: flex;  
+}
+ .home img {
+  width: 100%;
+  height: 100%;
+ }
+
+/*----------------------------------------------- seccion segunda habitaciones ----------------------------------------------------------------*/
+
+.segunda-seccion {
+    position: relative;
+    top: -4px;
+    width: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    z-index: -9999;
+}
+.imagenes {
+  width: 85%;
+  margin: 0 auto;
+}
+.circulo {
+  float: left;
+    width: 33%;
+    position: relative;
+    top: 45px;
+
+}
+.circulo p {
+  font-size: 2em;
+  font-weight: 300;
+  color: #6c9994;
+}
+.rombo {
+  float: left;
+    width: 33%;
+    position: relative;
+    top: 90px;
+}
+.rombo p {
+  font-size: 2em;
+  font-weight: 300;
+  color: #6c9994;
+}
+.exagono {
+  float: left;
+    width: 33%;
+    position: relative;
+    top: 140px;
+}
+.exagono p {
+  font-size: 2em;
+  font-weight: 300;
+  color: #6c9994;
+}
+.base {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.franja-base {
+    width: 100%;
+    height: 160px;
+    font-family: 'Lora', serif;
+    font-size: 1.375em;
+    font-weight: 300;    
+    position: absolute;   
+    bottom: 10%;
+    box-shadow: 2px 0 50px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.texto-comillas {
+    width: 70%;
+    height: 100%;
+    #line-height: 75px;    
+    #background: #525252;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+        
+}
+.imagen-visitas {
+    width: 28%;
+    height: 100%;
+    #line-height: 200px;    
+    background: url(./image/libro_de_visitas_logo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.texto-base  {
+    width: 100%;
+    position: relative;
+    top: 35%;
+    
+}
+.texto-base ul {
+    padding: 0;    
+}
+.texto-base ul li {
+    float: left;
+    padding: 0px;
+    list-style: none;
+}
+.texto-base ul li p {
+    margin: 0;
+    text-align: center;
+    font-size: 100%;
+}
+.lista-comas {
+    width: 15%;
+}
+.texto-base ul li img {
+    width: 30%;
+    margin: 0;
+    
+}
+
+/*----------------------------------------------- seccion tercera panoramica ----------------------------------------------------------------*/
+.tercer-seccion {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 80px;
+}
+.tercer-seccion img {
+  width: 100%
+}
+/*----------------------------------------------- seccion cuarta spa ----------------------------------------------------------------*/
+.cuarta-seccion {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 80px;
+}
+.cuarta-seccion img {
+  width: 100%;
+}
+.spa {
+  background: #fff;
+    width: 300px;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    text-align: center;
+}
+.spa h1 {
+  font-weight: 300;
+  color: #009dd1;
+  font-size: 3em;
+  margin: 2%;
+  box-shadow: 6px 0 15px rgba(0,0,0,0.1);
+}
+.spa span {
+  font-size: 0.5em;
+}
+.descanso {
+  font-family: 'Lora', serif;
+    font-size: 1.75em;
+    font-weight: 300;
+    font-style: italic;
+  color: #9CC;
+  margin: 0;
+  padding-top: 20px;
+}
+.puntos {
+  font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    color: #000;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ingresar {
+  color: #000;
+    text-decoration: none;
+    font-size: 1.35em;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    text-align: right;
+    padding-left: 65%;
+}
+
+/*----------------------------------------------- seccion quinta iconos ----------------------------------------------------------------*/
+
+.quinta-seccion {
+  background: #fff;
+  width:100%;
+  min-height: 771px;
+  position: relative;
+
+
+}
+.llave {
+    width: 100px;
+    height: 100px;
+    background: url(./image/llave.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 8%;
+    right: 42%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.llave:hover {
+  transform: scale(1.3,1.3);
+}
+.notebook {
+    width: 100px;
+    height: 100px;
+    background: url(./image/notebook.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 14%;
+    right: 30%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.notebook:hover {
+  transform: scale(1.3,1.3);
+}
+.pe {
+    width: 100px;
+    height: 100px;
+    background: url(./image/pe.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 29%;
+    right: 22%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.pe:hover {
+  transform: scale(1.3,1.3);
+}
+.copa {
+    width: 100px;
+    height: 100px;
+    background: url(./image/copa.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 48%;
+    right: 22%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.copa:hover {
+  transform: scale(1.3,1.3);
+}
+.timbre {
+    width: 100px;
+    height: 100px;
+    background: url(./image/timbre.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 69%;
+    right: 30%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.timbre:hover {
+  transform: scale(1.3,1.3);
+}
+.camara {
+    width: 100px;
+    height: 100px;
+    background: url(./image/camara.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    right: 42%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.camara:hover {
+  transform: scale(1.3,1.3);
+}
+.valija {
+    width: 100px;
+    height: 100px;
+    background: url(./image/valija.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.valija:hover {
+  transform: scale(1.3,1.3);
+}
+.toalla {
+    width: 100px;
+    height: 100px;
+    background: url(./image/toalla.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 67%;
+    left: 26%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+
+.toalla:hover {
+  transform: scale(1.3,1.3);
+}
+.telefono {
+    width: 100px;
+    height: 100px;
+    background: url(./image/telefono.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 47%;
+    left: 21%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.telefono:hover {
+  transform: scale(1.3,1.3);
+}
+.full {
+    width: 100px;
+    height: 100px;
+    background: url(./image/full.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.full:hover {
+  transform: scale(1.3,1.3);
+}
+.tazon {
+    width: 100px;
+    height: 100px;
+    background: url(./image/tazon.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 8%;
+    left: 38%;
+    -webkit-transition: all 1s ease 0.1s;
+}
+.tazon:hover {
+  transform: scale(1.3,1.3);
+}
+.quinta-seccion p {
+    font-family: 'Alegreya Sans',sans-serif;
+    text-align: center;
+    font-size: 3.3em;
+    font-weight: 100;
+    color: #000;
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    right: 25%;
+}
+/*----------------------------------------------- seccion sexta habitaciones ----------------------------------------------------------------*/
+.sexta-seccion{
+    position: relative;
+    background: url(./image/promo_fdo.jpg);
+    width: 100%;
+    min-height: 80vh;
+    
+
+    display: flex;
+}
+.promo {
+  background: rgba(206,57,0,0.18);
+  position:absolute;
+  top: 5%;
+  left: 12%;
+
+}
+.promo h1 {
+  font-weight: 300;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 5px 25px;
+  letter-spacing: 3.05px;
+  color: #fff;
+}
+.im-habitacion {
+    background: url(./image/habitacion.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 76%;
+    height: 500px;
+    margin: auto;    
+}
+
+
+.pie-promo {
+    width: 76%;
+    min-height: 150px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5%;    
+}
+
+
+.banner-cincuenta {
+    background: rgba(255,255,255,0.5);
+    float: left;   
+    letter-spacing: 0.06em;
+}
+.banner-cincuenta p {
+  font-size: 1.7em;
+    color: #000;
+    padding: 15px 35px;
+    font-weight: 300;
+    margin: 0;
+
+}
+.banner-mas {
+    background: rgba(255,255,255,0.5);
+    float: right;    
+}
+.banner-mas p {
+    font-size: 2.7em;
+    color: #000;
+    padding: 5px 35px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*----------------------------------------------- seccion septima resto ----------------------------------------------------------------*/
+
+.septima-seccion {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+
+}
+.septima-seccion img {
+  width: 100%;
+}
+.dionisio {
+    width: 60%;
+    position: absolute;
+    top: 9%;
+    right: 9%;
+    text-align: center;
+}
+.dionisio h1 {
+  width: 206px;
+  height: 60px;
+  background: url(./image/dionisio-logo.png) no-repeat;
+  background-size: contain;
+}
+.dionisio span {
+  display: none;
+}
+.spa h1 {
+  font-weight: 300;
+  color: #6294B9;
+  font-size: 3em;
+  margin: 2%;
+  box-shadow: 6px 0 15px rgba(0,0,0,0.1);
+}
+.spa span {
+  font-size: 0.5em;
+}
+.descansod {
+  font-family: 'Lora', serif;
+    font-size: 1.75em;
+    font-weight: 300;
+    font-style: italic;
+  color: #000;
+  margin: 0;
+  padding-top: 20px;
+}
+.puntos {
+  font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    color: #000;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ingresar {
+  color: #000;
+    text-decoration: none;
+    font-size: 1.35em;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    text-align: right;
+    padding-left: 65%;
+}
+
+/*----------------------------------------------- seccion octava novedades ----------------------------------------------------------------*/
+.octava-seccion{
+  position: relative;
+  background: url(./image/novedades-fondo.jpg);
+  width: 100%;
+  min-height: 100%;
+
+  display: flex;
+}
+.novedades {
+  
+  position:absolute;
+  top: 0%;
+  left: 12%;  
+}
+.novedades h1 {
+  background: rgba(134, 1, 41, 0.34);
+  color: #fff;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1.8em;
+  padding: 7px;
+  box-sizing: border-box;
+}
+.variedades {
+    width: 81%;
+    margin: 0 auto;
+    text-align: center;
+}
+.variedades ul li {
+    width: 29%;
+    margin: 10% 2% 10%;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.im-habitacion-neo {
+  background: url(./image/habitacion-neo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 464px;
+
+}
+.im-artesano {
+  background: url(./image/artesano.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 464px;
+
+}
+.im-chef {
+  background: url(./image/chef.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 464px;  
+
+}
+.pie-promo-novedades {
+    width: 100%;    
+    box-sizing: border-box;
+    
+}
+.banner-neo {
+    background: rgba(255,255,255,0.65);
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    right: 4%;
+    letter-spacing: 0.06em;
+}
+.banner-neo p {
+  font-size: 1.15em;
+    color: #000;
+    padding: 5px 28px;
+    font-weight: 300;
+    margin: 0;
+
+}
+.banner-artesano {
+    background: rgba(255,255,255,0.65);
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    right: 4%;
+    letter-spacing: 0.06em;
+}
+.banner-artesano p {
+  font-size: 1.15em;
+    color: #000;
+    padding: 5px 28px;
+    font-weight: 300;
+    margin: 0;
+
+}
+.banner-chef {
+    background: rgba(255,255,255,0.65);
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    right: 4%;
+    letter-spacing: 0.06em;
+}
+.banner-chef p {
+  font-size: 1.15em;
+    color: #000;
+    padding: 5px 28px;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+/*----------------------------------------------- seccion novena espacios ----------------------------------------------------------------*/
+.novena-seccion{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+.novena-seccion img {
+  width: 100%;
+  height: 100%;
+  z-index: -99999;
+  position: relative;
+}
+.columna {
+    height: 100%;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.39);
+    margin: 0;
+    left: 15%;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    z-index: 99999;
+}
+.numero-uno {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  margin: 0;
+  padding-top: 80px;
+}
+.numeros {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  margin: 0;
+  padding-top: 35px;
+}
+.letras {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 5px;
+  margin: 0;
+}
+
+/*----------------------------------------------- seccion decima contacto ----------------------------------------------------------------*/
+.decima-seccion {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.contacto {
+  background: #7B7B7B;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+}
+.contacto p {
+  font-weight: 300;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 5px 25px;
+    letter-spacing: 3.05px;
+    color: #fff;
+
+}
+.col-derecha {
+  width: 48%;
+    margin-right: 2%;
+    height: 113px;
+    display: inline-block;
+}
+.col-izquierda {
+  width: 48%;
+    height: 113px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.formulario {
+  width: 35%;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.form-contacto {
+  padding:2em;
+  #background:#EDEDED;
+  #border:1px solid #CECEBF;
+  line-height: 1em;
+}
+.campo-form {
+  margin:0.5em 0;
+  width:100%;
+  height:2em;
+  border:1px solid #ccc;
+}
+.btn-enviar {
+  padding:0.5em 1em;
+  margin-top:1em;
+  font-size:1.2em;
+  font-weight:300;
+  color:#fff;
+  text-transform:uppercase;
+  border:1px solid #999;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: #7B7B7B;;
+}
+.btn-enviar:hover {
+  background: #555;
+}
+textarea {
+  margin:5px 0;
+  width:100%;
+  height:130px;
+  border:1px solid #ccc;
+}
+form span {
+  font-size:0.8em;
+  color:red;
+}
+
+/*----------------------------------------------- media qwery  ----------------------------------------------------------------*/
+
+@media only screen and (max-width: 1670px) {
+   .banner-neo p {
+    font-size: 80%;
+   }
+   .banner-artesano p {
+    font-size: 80%;
+   }
+   .banner-chef p {
+    font-size: 80%;
+   }
+}
+@media only screen and (max-width: 1400px) {
+    .circulo-imagen img {
+        width: 70%;
+    }
+    .rombo-imagen img {
+        width: 70%;
+    }
+    .exagono-imagen img {
+        width: 70%;
+    }
+    .texto-base img {
+        width: 70%;
+    }
+    .visitas img {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+   #logo{
+    background-size: 70%;
+  }
+}
+
+
+@media only screen and (max-width: 1345px) {
+    #logo{
+    background-size: 75%;
+  }
+
+    h2{font-size: 40px;}
+
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 136px;
+    }
+        /* Convertimos nuestra lista de enlaces en un menú horizontal */
+        #menu ul{
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+        }
+            /* estilos para los LI del menu */
+            #menu li{
+                background: #33363b;
+                border-bottom: 1px solid #282b30;
+                float: none;
+            }
+
+            /* Quitamos el borde del ultimo item del menú */
+            #menu li:last-child{ border-bottom: 0;}
+                #menu li a{
+                    padding: 15px 0;
+                    height: auto;
+                    line-height: 1;
+                }
+                #menu li a:hover{background:#2a2d33}
+
+        /* Agregamos una animación al despligue del menú */
+        #menu ul.open-menu{
+            max-height: 400px;
+            -webkit-transition: max-height .4s;
+            -moz-transition: max-height .4s;
+            -ms-transition: max-height .4s;
+            -o-transition: max-height .4s;
+            transition: max-height .4s;
+        }
+}
+@media only screen and (max-width: 1130px){
+  .banner-cincuenta p {
+    font-size: 100%;
+}
+.banner-mas p {
+    font-size: 100%;
+    padding: 15px 35px;
+}
+     .texto-base img {
+        width: 60%;
+    }
+    .visitas img {
+        width: 60%;
+    }
+  }
+
+@media only screen and (max-width: 1024px){
+.franja-base {
+    width: 100%;
+    height: 260px;
+    font-family: 'Lora', serif;
+    font-size: 1.375em;
+    font-weight: 300;    
+    position: absolute;   
+    bottom: 10%;
+    box-shadow: 2px 0 50px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.texto-comillas {
+    width: 55%;
+    height: 48%;
+    margin: 0 auto;
+    padding: 0;
+}
+.imagen-visitas {
+    width: 90%;
+    height: 35%;
+    #line-height: 200px;    
+    background: url(./image/libro_de_visitas_logo.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+.texto-base  {
+    width: 100%;
+    position: relative;
+    top: 35%;
+    
+}
+.texto-base ul {
+    padding: 0;    
+}
+.texto-base ul li {
+    float: left;
+    padding: 0px;
+    list-style: none;
+}
+.texto-base ul li p {
+    margin: 0;
+    text-align: center;
+    font-size: 80%;
+}
+.texto-base ul li img {
+    width: 25%;
+    margin: 0;
+    
+}
+/*-------------seccion iconos circulares-------------------*/
+.llave {
+    width: 50px;
+    height: 50px;
+}
+.notebook {
+    width: 50px;
+    height: 50px;
+}
+.pe {
+    width: 50px;
+    height: 50px;
+}
+.copa {
+    width: 50px;
+    height: 50px;
+}
+.timbre {
+    width: 50px;
+    height: 50px;
+}
+.camara {
+    width: 50px;
+    height: 50px;
+}
+.valija {
+   width: 50px;
+    height: 50px;
+}
+
+.toalla {
+    width: 50px;
+    height: 50px;
+}
+
+.telefono {
+    width: 50px;
+    height: 50px;
+}
+
+.full {
+    width: 50px;
+    height: 50px;
+}
+.tazon {
+    width: 50px;
+    height: 50px;
+} 
+.quinta-seccion p {
+    font-size: 2.3em;    
+}
+    
+/*---------------------------------------------------------*/    
+    
+.formulario {
+    width: 55%;    
+    top: 20%;    
+}
+}
+
+@media only screen and (max-width: 960px) {
+  
+
+.imagenes {
+    width: 85%;
+    margin: 0 auto;
+    height: 1100px;
+}
+.circulo {
+    
+    width: 100%; 
+    position: relative;
+    top: 45px;
+}
+    .circulo-imagen img {
+    width: 30%;
+}
+.rombo {
+    
+    width: 100%; 
+    position: relative;
+    top: 90px;
+}
+.rombo-imagen img {
+    width: 30%;
+}
+.exagono {
+    
+    width: 100%; 
+    position: relative;
+    top: 140px;
+    #margin-bottom: -38%;
+}
+    .exagono-imagen img {
+    width: 30%;
+}
+    .base {
+        height: 150px;
+        bottom: 5%
+    }    
+    
+.variedades li {
+    width: 100%;   
+  }
+  .banner-neo p {
+    font-size: 100%;
+   }
+   .banner-artesano p {
+    font-size: 100%;
+   }
+   .banner-chef p {
+    font-size: 100%;
+   }
+    .lista-comas {
+        width: 10%;
+    }
+    .texto-base ul li img {
+    width: 15%;
+    margin: 0;
+    
+}
+    .texto-base ul li p {
+    margin: 0;
+    text-align: center;
+    font-size: 65%;
+}
+.texto-base ul li img {
+    width: 30%;
+    margin: 0;
+}
+    
+}
+@media only screen and (max-width: 768px){
+    .redes {
+        display: none;
+    }
+ .texto-comillas {
+    width: 70%;
+    height: 48%;
+    /* margin: 0 auto; */
+    padding: 0;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+.texto-base ul li p {
+    margin: 0;
+    text-align: center;
+    font-size: 70%;
+    width: 100%;
+}
+    .imagenes {
+    width: 85%;
+    margin: 0 auto;
+    height: 1000px;
+}
+/*-------------seccion iconos circulares-------------------*/
+.llave {
+    top: 30%;
+    right: 46%;
+}
+.notebook {
+   top: 30%;
+   right: 30%;
+}
+.pe {
+  top: 30%;
+  right: 15%;
+}
+.copa {
+  right: 15%;
+  top:60%;
+}
+.timbre {
+   top:60%;
+   right: 27%;
+}
+.camara {
+  top:60%;
+  right: 39%;  
+}
+.valija {
+  top:60%;
+  left: 39%;
+}
+
+.toalla {
+ top:60%;
+ left: 27%;   
+}
+
+.telefono {
+ top:60%;
+ left: 15%;  
+}
+
+.full {
+  top: 30%;
+  left: 15%; 
+}
+.tazon {
+  top: 30%;
+  left: 30%; 
+} 
+.quinta-seccion p {
+    font-size: 2.1em;    
+}
+    
+/*---------------------------------------------------------*/
+/*---------------------seccion novedades-------------------*/
+.variedades ul li {
+    width: 100%;
+    margin: 0;
+    float: none;
+    position: relative;
+    list-style: none;
+} 
+.im-habitacion-neo {
+    width: 100%;
+    height: 260px;
+    margin-top: 10%;
+}
+.im-artesano {
+    width: 100%;
+    height: 260px;
+}
+.im-chef {
+    width: 100%;
+    height: 260px;
+    margin-bottom: 10%;
+}
+
+    
+/*---------------------------------------------------------*/
+
+.numero-uno {  
+  font-size: 3em;  
+}
+.numeros {  
+  font-size: 3em;  
+}
+.letras {  
+  font-size: 1.4em;  
+}
+}
+@media only screen and (max-width: 600px){
+.novena-seccion {
+    width: 100%;
+    height: 60vh;    
+}
+}
+@media only screen and (max-width: 600px){
+  #logo{
+    background-size: 80%;
+  }
+.texto-comillas {
+    width: 100%;
+    height: 48%;
+    /* margin: 0 auto; */
+    padding: 0;
+    position: relative;
+    left: 2%;
+    right: 2%;
+}
+    .spa {
+      width: 60%
+    }
+    .spa  h1{
+      font-size: 2em
+    }
+    .descanso {    
+    font-size: 1.75em;    
+}
+    .puntos {    
+    font-size: 2em;    
+}
+    .ingresar {    
+    font-size: 1.05em;    
+}
+/*-------------seccion iconos circulares-------------------*/
+.llave {
+    width: 30px;
+    height: 30px;
+}
+.notebook {
+     width: 30px;
+    height: 30px;
+}
+.pe {
+    width: 30px;
+    height: 30px;
+}
+.copa {
+    width: 30px;
+    height: 30px;
+}
+.timbre {
+    width: 30px;
+    height: 30px;
+}
+.camara {
+    width: 30px;
+    height: 30px;
+}
+.valija {
+   width: 30px;
+    height: 30px;
+}
+
+.toalla {
+    width: 30px;
+    height: 30px;
+}
+
+.telefono {
+    width: 30px;
+    height: 30px;
+}
+
+.full {
+   width: 30px;
+    height: 30px;
+}
+.tazon {
+   width: 30px;
+    height: 30px;
+} 
+.quinta-seccion p {
+    font-size: 2em;    
+}
+    
+/*---------------------------------------------------------*/   
+     .pie-promo {
+    width: 76%;
+    min-height: 150px;
+    box-sizing: border-box;
+    #position: absolute;
+    bottom: 5%;
+    #left: 0%;
+}
+.banner-cincuenta {
+    background: rgba(255,255,255,0.5);
+    float: none;
+    display: block;
+    letter-spacing: 0.06em;
+}
+.banner-mas {
+    background: rgba(255,255,255,0.5);
+    display: block;
+    float: none;
+}
+    .formulario {
+    width: 100%;
+    right: 0%;
+    top: 20%;    
+}
+.columna {    
+    width: 35%;    
+}
+}
+@media only screen and (max-width: 430px){
+  #logo{
+    background-size: 50%;
+  }
+    .franja-base {    
+    height: 125px;
+    
+}
+    .texto-comillas {
+        display: none;
+    }
+    .imagen-visitas {
+        height: 90%;
+    }
+       .imagenes {
+    width: 85%;
+    margin: 0 auto;
+    height: 650px;
+}
+     .spa {
+      width: 50%
+    }
+    .spa  h1{
+      font-size: 1.5em
+    }
+    .descanso {    
+    font-size: 1.25em;    
+}
+    .puntos {    
+    font-size: 1em;    
+}
+    .ingresar {    
+    font-size: 0.85em;    
+}
+    .quinta-seccion p {
+    font-size: 1.5em;    
+}
+    .pie-promo {
+    width: 76%;
+    min-height: 150px;
+    box-sizing: border-box;
+    #position: absolute;
+    bottom: 5%;
+    #left: 0%;
+}
+.banner-cincuenta {
+    background: rgba(255,255,255,0.5);
+    float: none;
+    display: block;
+    letter-spacing: 0.06em;
+}
+.banner-mas {
+    background: rgba(255,255,255,0.5);
+    display: block;
+    float: none;
+}
+.dionisio {
+    width: 100%;
+    position: absolute;
+    top: 9%;
+    right: 0%;
+    text-align: center;
+}
+    .numero-uno {  
+        font-size: 2em;
+        padding-top: 30px;
+}
+.numeros {  
+    font-size: 2em; 
+    padding-top: 18px;
+}
+.letras {  
+  font-size: 1em;  
+}
+}
